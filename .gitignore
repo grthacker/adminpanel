@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /vendor/
 node_modules/
 npm-debug.log
@@ -21,3 +22,27 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+=======
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/public/css
+/public/js
+/public/mix-manifest.json
+# But not these files...
+!/public/assets/*
+/public/assets/js
+/public/assets/css
+/public/assets/vendor
+>>>>>>> 74264b49344ecf3fbc415596560fac5489216313
